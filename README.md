@@ -1,6 +1,8 @@
 # Infinite Landscape surface generator 
 This script generates an unlimited number of 3D landscape/terrain objects that can be used with 3D CGI software like Blender and Unreal Engine.
+
 The goal is to be able to generate a diverse landscape based on real-world patterns without relying on procedural generation.
+
 What it does is take a large number of images and use one of the image maps (mainly intensity) to generate a height map with pixel value as height.
 By default, the generated landscape will be square.
 However, you can also add a 2D shape (save as binary[0,255] png image) to give the surface a none-square shape.
@@ -12,6 +14,7 @@ The script in generate_terrain.py will run out of the box with the sample images
 
 ## Input parameters:
 In generate_terrain.py:
+
 ***img_dir*** folder with images that will be used to generate the terrain height map (see sample images folder provided).
 
 ***shape_dir*** (optional) folder with 2D shapes saved as binary png (0,255) that will be used to create the 2D shapes of the terrain map (like an island) only used if square==False, otherwise the terrain will be squared  (see sample shapes folder provided).
