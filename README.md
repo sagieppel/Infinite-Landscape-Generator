@@ -6,7 +6,11 @@ The goal is to be able to generate a diverse landscape based on real-world patte
 What it does is take a large number of images and use one of the image maps (mainly intensity) to generate a height map with pixel value as height.
 By default, the generated landscape will be square.
 However, you can also add a 2D shape (save as binary[0,255] png image) to give the surface a none-square shape.
-
+![](/SquareMerged1.jpg)
+![Example for square landscape (with square=True)](/SquareMerged1.jpg)
+ 
+![](/ShapedMerged2.jpg)
+![Example for shaped landscape (with square=False)](/ShapedMerged3.jpg)
 
 # How to use:
 The script in generate_terrain.py will run out of the box with the sample images and shape folders provided in the repository and will output the terrains/lanscape as .obj files.
