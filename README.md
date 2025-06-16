@@ -7,7 +7,7 @@ What it does is take a large number of images and use one of the image maps (mai
 By default, the generated landscape will be square.
 However, you can also add a 2D shape (save as binary[0,255] png image) to give the surface a none-square shape.
 ![](/SquareMerged1.jpg)
-![Example for square landscape (with square=True)](/SquareMerged1.jpg)
+![Example for square landscape (with square=True)](/SquareMerged2.jpg)
  
 ![](/ShapedMerged2.jpg)
 ![Example for shaped landscape (with square=False)](/ShapedMerged3.jpg)
