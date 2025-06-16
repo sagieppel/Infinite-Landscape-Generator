@@ -1,0 +1,27 @@
+# Infinite Landscape surface generator 
+This script generates an unlimited number of 3D landscape/terrain objects that can be used with 3D CGI software like Blender and Unreal Engine.
+The goal is to be able to generate a diverse landscape based on real-world patterns without relying on procedural generation.
+What it does is take a large number of images and use one of the image maps (mainly intensity) to generate a height map with pixel value as height.
+By default, the generated landscape will be square.
+However, you can also add a 2D shape (save as binary[0,255] png image) to give the surface a none-square shape.
+
+
+# How to use:
+The script in generate_terrain.py will run out of the box with the sample images and shape folders provided in the repository and will output the terrains/lanscape as .obj files.
+
+
+## Input parameters:
+In generate_terrain.py:
+***img_dir*** folder with images that will be used to generate the terrain height map (see sample images folder provided).
+
+***shape_dir*** (optional) folder with 2D shapes saved as binary png (0,255) that will be used to create the 2D shapes of the terrain map (like an island) only used if square==False, otherwise the terrain will be squared  (see sample shapes folder provided).
+
+***out_dir*** Output dir were generated terrains will be saved 
+
+***map_size*** Size of the output terrain map in pixels
+
+***square*** If this is true the generated terrain will be square else the shape (x,y) of the terrain will be taken from shapes in shape_dir
+
+# More resources.
+The number of terrains generated is limited by the number of images provided.
+If you want a large number of landscapes download a large repository of images from [open images dataset](https://storage.googleapis.com/openimages/web/index.html) or  [segment anything](https://ai.meta.com/datasets/segment-anything/). A large number of 2D shapes from the [LAS&T dataset](https://zenodo.org/records/15453634/files/SHAPES_2D_365k.zip?download=1).
