@@ -32,5 +32,8 @@ In generate_terrain.py:
 
 # More resources.
 The number of terrains generated is limited by the number of images provided.
-If you want a large number of landscapes download a large repository of images from [open images dataset](https://storage.googleapis.com/openimages/web/index.html) or  [segment anything](https://ai.meta.com/datasets/segment-anything/). A large number of 2D shapes can be downloaded from the [LAS&T dataset](https://zenodo.org/records/15453634/files/SHAPES_2D_365k.zip?download=1).
+If you want a large number of landscapes download a large repository of images from [open images dataset](https://storage.googleapis.com/openimages/web/index.html) or  [segment anything](https://ai.meta.com/datasets/segment-anything/).
+
+A large number of 2D shapes can be downloaded from the [LAS&T dataset](https://zenodo.org/records/15453634/files/SHAPES_2D_365k.zip?download=1).
+
 Example for using the generate landscape obj files to create images can be found [this repository](https://github.com/sagieppel/Generate_3D_Landscape_Terrain_Recognition_and_Retrieval_Synthetic_Dataset_Blender)
