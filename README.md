@@ -40,6 +40,8 @@ A large number of 2D shapes can be downloaded from the [LAS&T dataset](https://z
 Example for using the generate landscape obj files to create images can be found [this repository](https://github.com/sagieppel/Generate_3D_Landscape_Terrain_Recognition_and_Retrieval_Synthetic_Dataset_Blender)
 
 # Sample Results
-[Sample 12,000 Square 3D topographical 3D surfaces obj files can be download from here](https://e.pcloud.link/publink/show?code=XZgo7EZwrODItmSa5VyKoh5xew2WurKBfYX)
+[Sample 12,000 Square 3D topographical 3D surfaces size 100x100 obj files can be download from here](https://e.pcloud.link/publink/show?code=XZgo7EZwrODItmSa5VyKoh5xew2WurKBfYX)
+
+[Sample 12,000 Square 3D topographical 3D surfaces size 50x50 obj files can be download from here](https://e.pcloud.link/publink/show?code=XZTykEZSjnxm5WR9AytMEXBnoQVokIedUb7)
 
 [Sample 12,000 Shaped 2D surfaces  obj files can be download from here](https://e.pcloud.link/publink/show?code=XZ6o7EZzmHeVofOfIBCyO15DIvY5zgm0wAk)
