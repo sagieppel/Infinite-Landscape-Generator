@@ -30,6 +30,7 @@ In generate_terrain.py:
 
 ***square*** If this is true the generated terrain will be square else the shape (x,y) of the terrain will be taken from shapes in shape_dir
 
+
 # More resources.
 The number of terrains generated is limited by the number of images provided.
 If you want a large number of landscapes download a large repository of images from [open images dataset](https://storage.googleapis.com/openimages/web/index.html) or  [segment anything](https://ai.meta.com/datasets/segment-anything/).
@@ -37,3 +38,7 @@ If you want a large number of landscapes download a large repository of images f
 A large number of 2D shapes can be downloaded from the [LAS&T dataset](https://zenodo.org/records/15453634/files/SHAPES_2D_365k.zip?download=1).
 
 Example for using the generate landscape obj files to create images can be found [this repository](https://github.com/sagieppel/Generate_3D_Landscape_Terrain_Recognition_and_Retrieval_Synthetic_Dataset_Blender)
+
+# Sample Results
+[Sample 12,000 Square 3D topographical 3D surfaces obj files can be download from here](https://e.pcloud.link/publink/show?code=XZgo7EZwrODItmSa5VyKoh5xew2WurKBfYX)
+[Sample 12,000 Shaped 2D surfaces](https://e.pcloud.link/publink/show?code=XZ6o7EZzmHeVofOfIBCyO15DIvY5zgm0wAk)
