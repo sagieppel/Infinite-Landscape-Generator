@@ -42,4 +42,4 @@ Example for using the generate landscape obj files to create images can be found
 # Sample Results
 [Sample 12,000 Square 3D topographical 3D surfaces obj files can be download from here](https://e.pcloud.link/publink/show?code=XZgo7EZwrODItmSa5VyKoh5xew2WurKBfYX)
 
-[Sample 12,000 Shaped 2D surfaces](https://e.pcloud.link/publink/show?code=XZ6o7EZzmHeVofOfIBCyO15DIvY5zgm0wAk)
+[Sample 12,000 Shaped 2D surfaces  obj files can be download from here](https://e.pcloud.link/publink/show?code=XZ6o7EZzmHeVofOfIBCyO15DIvY5zgm0wAk)
